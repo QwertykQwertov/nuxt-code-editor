@@ -7,7 +7,7 @@
     />
     <div class="flex flex-col gap-y-2">
       <h3 class="font-semibold sm:text-lg dark:text-white">Tags</h3>
+      <TagList />
     </div>
-    <TagList />
   </div>
 </template>

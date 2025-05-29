@@ -13,6 +13,12 @@ const playlists = [
     tags: ['Development', 'Collaboration'],
   },
   {
+    title: 'Live Share',
+    description:
+      'Real-time collaborative development from the comfort of your favorite editor.',
+    tags: ['Development', 'Collaboration'],
+  },
+  {
     title: 'ESLint',
     description:
       'Find and fix problems in your JavaScript/TypeScript code automatically.',
@@ -51,7 +57,7 @@ const playlists = [
     <PlaylistGridItem
       v-for="playlist in playlists"
       :key="playlist.title"
-      :playlist
+      :playlist="playlist"
     />
   </div>
 </template>

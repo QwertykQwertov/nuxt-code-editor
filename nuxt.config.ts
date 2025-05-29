@@ -36,6 +36,8 @@ export default defineNuxtConfig({
       plane: 'heroicons:paper-airplane-solid',
       bars: 'heroicons:bars-3-solid',
       xMark: 'heroicons:x-mark-solid',
+      globe: 'heroicons:globe-alt-solid',
+      bracket: 'heroicons:code-bracket-solid'
     },
   },
 })
