@@ -4,19 +4,13 @@ definePageMeta({ layout: 'auth' })
 
 <template>
   <form class="flex flex-col gap-y-4 sm:gap-y-6">
-    <AppFormField label="Email" type="email" id="email" />
-    <AppFormField label="Password" type="password" id="password" />
-    <AppFormField
-      label="Password Confirmation"
-      type="email"
-      id="passwordConfirmation"
-    />
-
-    <button
-      class="mt-2 rounded-md bg-indigo-600 px-6 py-2 text-sm font-semibold text-indigo-50 hover:bg-indigo-700 sm:mt-1 sm:rounded-lg sm:text-base"
+    <AppFormField type="email" id="email">Email</AppFormField>
+    <AppFormField type="password" id="password">Password</AppFormField>
+    <AppFormField type="email" id="passwordConfirmation"
+      >Password Confirmation</AppFormField
     >
-      Sign Up
-    </button>
+
+    <AppButton class="mt-2 sm:mt-1">Sign Up</AppButton>
   </form>
   <p class="mt-6 text-center text-sm text-gray-600 sm:mt-8 dark:text-gray-300">
     Already have an account?
